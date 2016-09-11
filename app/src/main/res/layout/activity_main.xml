@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:fillViewport="false">
 
     <LinearLayout
@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number|numberSigned" />
 
         <TextView
             android:id="@+id/textView4"
@@ -127,6 +127,7 @@
             android:textStyle="bold" />
 
         <RadioGroup
+            android:id="@+id/kelamin"
             android:layout_width="351dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -209,6 +210,56 @@
             android:id="@+id/TextViewHasil"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            tools:text="hasil" />
+
+        <TextView
+            android:id="@+id/TextViewHasil2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            tools:text="hasil" />
+
+        <TextView
+            android:id="@+id/TextViewHasil3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            tools:text="hasil" />
+
+        <TextView
+            android:id="@+id/TextViewHasil4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            tools:text="hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            tools:text="hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
             android:padding="16dp"
