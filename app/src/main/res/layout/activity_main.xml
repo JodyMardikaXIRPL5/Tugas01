@@ -24,7 +24,10 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Lengkap" />
+            android:text="Nama Lengkap"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextNama"
@@ -37,7 +40,10 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kelas" />
+            android:text="Kelas"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/spinnerKelas"
@@ -50,7 +56,10 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nomor Absen" />
+            android:text="Nomor Absen"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextAbsen"
@@ -63,7 +72,10 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email" />
+            android:text="Email"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -76,7 +88,10 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nomor Telpon" />
+            android:text="Nomor Telpon"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextTelpon"
@@ -89,7 +104,10 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alamat" />
+            android:text="Alamat"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextAlamat"
@@ -102,7 +120,10 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jenis Kelamin" />
+            android:text="Jenis Kelamin"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <RadioGroup
             android:layout_width="351dp"
@@ -129,7 +150,10 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Materi yang dipelajari" />
+            android:text="Materi yang dipelajari"
+            android:textColor="#0318ff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <CheckBox
             android:id="@+id/checkBoxAPK"
@@ -166,14 +190,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Daftar" />
+            android:text="Daftar"
+            android:textStyle="bold" />
+
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/exit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Batal" />
+            android:onClick="clickExit"
+            android:text="Batal"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>
