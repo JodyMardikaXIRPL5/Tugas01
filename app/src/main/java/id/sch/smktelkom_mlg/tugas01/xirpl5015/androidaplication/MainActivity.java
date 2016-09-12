@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -18,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     EditText etEmail;
     EditText etTelpon;
     EditText etAlamat;
-    RadioGroup rgKelamin;
     CheckBox cbapk;
     CheckBox cbroot;
     CheckBox cbcwm;
@@ -27,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     Button bOK;
     TextView tvHasil;
     TextView tvHasil2;
-    TextView tvHasil3;
     TextView tvHasil4;
     TextView tvHasil5;
     TextView tvHasil6;
@@ -51,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         bOK = (Button) findViewById(R.id.Daftar);
         tvHasil = (TextView) findViewById(R.id.TextViewHasil);
         tvHasil2 = (TextView) findViewById(R.id.TextViewHasil2);
-        tvHasil3 = (TextView) findViewById(R.id.TextViewHasil3);
         tvHasil4 = (TextView) findViewById(R.id.TextViewHasil4);
         tvHasil5 = (TextView) findViewById(R.id.textViewHasil5);
         tvHasil6 = (TextView) findViewById(R.id.textViewHasil6);
@@ -64,21 +60,25 @@ public class MainActivity extends AppCompatActivity {
                 int telpon = Integer.parseInt(etTelpon.getText().toString());
                 tvHasil.setText("Siswa dengan informasi di bawah ini telah berhasil mendaftar");
                 tvHasil2.setText("Nama = " + nama);
-                tvHasil3.setText("Email = " + email);
                 tvHasil4.setText("Telpon = " + telpon);
-                tvHasil5.setText("");
                 doClick();
-
             }
         });
     }
 
     private void doClick() {
-        String hasil = "Matreri yang Diambil = \n";
-        int startlen = hasil.length();
-        if (cbapk.isChecked()) hasil += cbapk.getText() + "\n"
+        tvHasil5.setText("kelas = " + spKelas.getSelectedItem().toString());
 
-        tvHasil6.setText("Kelas =" + spKelas.getSelect, edItem().toString());
+        String hasil = "Materi yang diambil = \n";
+        int startlen = hasil.length();
+        if (cbapk.isChecked()) hasil += cbapk.getText() + "\n";
+        if (cbroot.isChecked()) hasil += cbroot.getText() + "\n";
+        if (cbcwm.isChecked()) hasil += cbcwm.getText() + "\n";
+        if (cbrom.isChecked()) hasil += cbrom.getText() + "\n";
+        if (cbvirus.isChecked()) hasil += cbvirus.getText() + "\n";
+
+        if (hasil.length() == startlen) hasil += "Anda belum memilih materi";
+        tvHasil6.setText(hasil);
     }
 
     public void clickExit(View v) {

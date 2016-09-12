@@ -82,8 +82,7 @@
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="30"
-            android:inputType="textEmailAddress" />
+            android:ems="30" />
 
         <TextView
             android:id="@+id/textViewTelpon"
@@ -114,8 +113,7 @@
             android:id="@+id/editTextAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="30"
-            android:inputType="textEmailAddress" />
+            android:ems="30" />
 
         <TextView
             android:id="@+id/textViewKelamin"
@@ -217,16 +215,6 @@
 
         <TextView
             android:id="@+id/TextViewHasil2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:padding="16dp"
-            tools:text="hasil" />
-
-        <TextView
-            android:id="@+id/TextViewHasil3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
