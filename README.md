@@ -21,10 +21,11 @@ Link apk
 4. 
 Identitas Pembuat = 
 
-  * Nama = Jody Madrika
-  * Kelas = XI RPL 5
-  * No. Absen 15
-  * NIS = 4731/1450.070
+  * Nama      = Jody Madrika
+  * Kelas     = XI RPL 5
+  * No. Absen = 15
+  * NIS       = 4731/1450.070
+  * Sekolah   = SMK Telkom Malang
 
 sebelumnya, saya mohon maaf yang sebesar - besarnya pak, app saya masih banyak bug nya, saya sudah browsing dan minta tolong ke teman, tapi tetap tidak berhasil,pak.
 masalah terletak ketika melakukan pemrosesan input
