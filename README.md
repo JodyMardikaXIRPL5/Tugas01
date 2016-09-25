@@ -16,8 +16,14 @@ Screenshot aplikasi
 
 3. 
 Link apk 
-[https://drive.google.com/open?id=0B49rMzDG-u0ubHFzUkx4OXZGZHc "AndroidApplication"]
-<a href="https://drive.google.com/open?id=0B49rMzDG-u0ubHFzUkx4OXZGZHc">Android</a>
+<a href="https://drive.google.com/open?id=0B49rMzDG-u0ubHFzUkx4OXZGZHc">AndroidApplication</a>
+
+4. 
+Identitas Pembuat = 
+* Nama = Jody Madrika
+* Kelas = XI RPL 5
+* No. Absen 15
+* NIS = 4731/1450.070
 
 sebelumnya, saya mohon maaf yang sebesar - besarnya pak, app saya masih banyak bug nya, saya sudah browsing dan minta tolong ke teman, tapi tetap tidak berhasil,pak.
 masalah terletak ketika melakukan pemrosesan input
