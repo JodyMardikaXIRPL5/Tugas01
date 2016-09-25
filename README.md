@@ -13,7 +13,7 @@ Aplikasi ini menggunakan 2 buah button, 1 untuk validasi data dan 1 membatalkan 
 * ![Screenshot_3](https://cloud.githubusercontent.com/assets/22114252/18816927/b2d900ee-837d-11e6-9435-2beb9be0a706.png)
 
 3. Link apk 
-[https://drive.google.com/open?id=0B49rMzDG-u0ubHFzUkx4OXZGZHc]
+[https://drive.google.com/open?id=0B49rMzDG-u0ubHFzUkx4OXZGZHc "AndroidApplication"]
 
 sebelumnya, saya mohon maaf yang sebesar - besarnya pak, app saya masih banyak bug nya, saya sudah browsing dan minta tolong ke teman, tapi tetap tidak berhasil,pak.
 masalah terletak ketika melakukan pemrosesan input
