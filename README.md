@@ -7,10 +7,13 @@ Pada aplikasi ini, user di minta untuk memasukkan input yang berupa data diri se
 Aplikasi ini menggunakan 2 buah button, 1 untuk validasi data dan 1 membatalkan pendaftaran
 
 2. Screenshot aplikasi
+
 * ![Screenshot_1]
 (https://drive.google.com/open?id=0B49rMzDG-u0uVnd3czhLQ0twTm8)
+
 * ![Screenshot_2]
 (https://drive.google.com/open?id=0B49rMzDG-u0uNGxqV2lFOFl6WmM)
+
 * ![Screenshot_3]
 (https://drive.google.com/open?id=0B49rMzDG-u0ucURhOVplRmNlR2M)
 
